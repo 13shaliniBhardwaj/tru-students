@@ -8,11 +8,15 @@ Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
-
 == Description ==
 
-This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
+To Develop a plugin: TRU Students, by using proper OOPS concepts and namespaces
+
+1) Register custom post type - students (without using any 3rd party plugin) and create custom fields, name, roll number, dob, etc.
+2) Add taxonomy: class
+3) Add Upload field using ACF in taxonomy,
+   3.1) Create Upload Image
+4) Create Shortcode: [tru_student] to display all students with taxonomy filter. The filter should work with Ajax. Like when we select class from the dropdown then should display students of the selected class.
 
 For backwards compatibility, if this section is missing, the full length of the short description will be used, and
 Markdown parsed.
@@ -90,17 +94,14 @@ plugins where more information needs to be conveyed that doesn't fit into the ca
 
 == A brief Markdown Example ==
 
-Ordered list:
+To Develop a plugin: TRU Students, by using proper OOPS concepts and namespaces
 
-1. Some feature
-1. Another feature
-1. Something else about the plugin
+1) Register custom post type - students (without using any 3rd party plugin) and create custom fields, name, roll number, dob, etc.
+2) Add taxonomy: class
+3) Add Upload field using ACF in taxonomy,
+   3.1) Create Upload Image
+4) Create Shortcode: [tru_student] to display all students with taxonomy filter. The filter should work with Ajax. Like when we select class from the dropdown then should display students of the selected class.
 
-Unordered list:
-
-* something
-* something else
-* third thing
 
 Here's a link to [WordPress](http://wordpress.org/ "Your favorite software") and one to [Markdown's Syntax Documentation][markdown syntax].
 Titles are optional, naturally.
